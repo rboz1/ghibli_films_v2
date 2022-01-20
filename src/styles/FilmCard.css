@@ -1,0 +1,153 @@
+body {
+  background-color: #171916;
+  height: 100%;
+}
+
+body main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main #load {
+  color: white;
+  text-align: center;
+  margin-top: 75%;
+}
+
+body main #load svg {
+  fill: white;
+  width: 100px;
+  height: 100px;
+}
+
+body main .card {
+  width: 400px;
+  height: 700px;
+  -webkit-perspective: 1100px;
+          perspective: 1100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card .card-inner {
+  width: 400px;
+  height: 600px;
+  text-align: center;
+  position: relative;
+  -webkit-transition: -webkit-transform 1.5s;
+  transition: -webkit-transform 1.5s;
+  transition: transform 1.5s;
+  transition: transform 1.5s, -webkit-transform 1.5s;
+  -webkit-transform-style: preserve-3d;
+          transform-style: preserve-3d;
+}
+
+body main .card .card-inner .card-front, body main .card .card-inner .card-back {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+
+body main .card .card-inner .card-front img {
+  width: 400px;
+}
+
+body main .card .card-inner .card-front img:hover {
+  opacity: 0.5;
+}
+
+body main .card .card-inner .card-back {
+  background-color: #473535;
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+body main .card .card-inner .card-back h1 {
+  color: #bc3c37;
+}
+
+body main .card .card-inner .card-back h2 {
+  color: #6b5057;
+}
+
+body main .card .card-inner .card-back p {
+  padding: 5%;
+  color: #efefef;
+  line-height: 1.5rem;
+}
+
+body main .flip {
+  -webkit-transform: rotateY(180deg);
+          transform: rotateY(180deg);
+}
+
+body main .card-alt {
+  width: 400px;
+  height: 700px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body main .card-alt .card-back-alt {
+  background-color: #473535;
+  text-align: center;
+  height: 90%;
+  width: 90%;
+}
+
+body main .card-alt .card-back-alt h1 {
+  color: #bc3c37;
+}
+
+body main .card-alt .card-back-alt h2 {
+  color: #6b5057;
+}
+
+body main .card-alt .card-back-alt p {
+  padding: 5%;
+  color: #efefef;
+  line-height: 1.5rem;
+}
+
+@media only screen and (min-width: 768px) {
+  body main {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: row wrap;
+            flex-flow: row wrap;
+  }
+  body main .card {
+    padding: 2%;
+  }
+  body main #load {
+    margin-top: 20%;
+  }
+}
+/*# sourceMappingURL=FilmCard.css.map */

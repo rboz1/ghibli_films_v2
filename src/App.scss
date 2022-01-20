@@ -1,0 +1,40 @@
+.App{
+    display: grid;
+
+    grid-template-rows: 1% 1fr;
+    grid-template-areas: 
+    "navi"
+    "films";
+
+    header{
+        grid-area: navi;
+    }
+    main{
+        grid-area: films;
+    }
+}
+
+@media only screen and 
+    (min-width: 1000px) {
+    .App{
+        grid-template-rows: 5% 1fr;
+    }
+    
+}
+
+@media only screen 
+    and (min-width: 1001px)
+    and (max-width: 1999px) {
+    .App{
+        grid-template-rows: 2% 1fr;
+    }
+    
+}
+
+@media only screen 
+    and (min-width: 2000px){
+    .App{
+        grid-template-rows: 3% 1fr;
+    }
+    
+}

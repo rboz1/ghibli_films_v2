@@ -1,0 +1,41 @@
+.App {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1% 1fr;
+      grid-template-rows: 1% 1fr;
+      grid-template-areas: "navi" "films";
+}
+
+.App header {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+  grid-area: navi;
+}
+
+.App main {
+  -ms-grid-row: 2;
+  -ms-grid-column: 1;
+  grid-area: films;
+}
+
+@media only screen and (min-width: 1000px) {
+  .App {
+    -ms-grid-rows: 5% 1fr;
+        grid-template-rows: 5% 1fr;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1999px) {
+  .App {
+    -ms-grid-rows: 2% 1fr;
+        grid-template-rows: 2% 1fr;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
+  .App {
+    -ms-grid-rows: 3% 1fr;
+        grid-template-rows: 3% 1fr;
+  }
+}
+/*# sourceMappingURL=App.css.map */

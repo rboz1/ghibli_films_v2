@@ -1,0 +1,134 @@
+@import 'colorPalette.scss';
+
+//Mobile
+body{
+    background-color: $bg-color;
+    height: 100%;
+    main{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        #load{
+            svg{
+                fill: white;
+                width: 100px;
+                height: 100px;
+            }
+            color: white;
+            text-align: center;
+            margin-top: 75%;
+        }
+
+        .card{
+            width: 400px;
+            height: 700px;
+            perspective: 1100px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            
+
+            .card-inner{
+                width: 400px;
+                height: 600px;
+                text-align: center;
+                position: relative;
+                transition: transform 1.5s;
+                transform-style: preserve-3d;
+
+
+                .card-front, .card-back{
+                    position: absolute;
+                    height: 100%;
+                    width: 100%;
+                    backface-visibility: hidden;
+
+                }
+
+                .card-front{
+
+                    img{
+                        width: 400px;
+                    }
+                    img:hover{
+                        opacity: 0.5;
+                    }
+                }
+
+
+                .card-back{
+                    background-color: $card-back;
+                    transform: rotateY( 180deg );
+
+                    h1{
+                        color:$h1-color;
+                    }
+                    h2{
+                        color: $h2-color;
+                    }
+                    p{
+                        padding: 5%;
+                        color: $p-color;
+                        line-height: 1.5rem;
+                    }
+                }
+            }
+
+        }
+
+        .flip{
+            transform: rotateY(180deg);
+        }
+
+        .card-alt{
+            width: 400px;
+            height: 700px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        
+            .card-back-alt{
+                background-color: $card-back;
+                text-align: center;
+                height: 90%;
+                width: 90%;
+
+                h1{
+                    color:$h1-color;
+                }
+                h2{
+                    color: $h2-color;
+                }
+                p{
+                    padding: 5%;
+                    color: $p-color;
+                    line-height: 1.5rem;
+                }
+            }
+            
+        }
+
+    }
+
+}
+
+//Larger devices
+@media only screen 
+    and (min-width: 768px){
+        body{
+            main{
+                flex-flow: row wrap;
+                
+                .card{
+                    padding: 2%;
+                }
+
+                #load{
+                    margin-top: 20%;
+
+                }
+            }
+        }
+}
