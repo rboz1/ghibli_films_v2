@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/ghibli_films_v2/static/css/main.06f10fc5.css",
+    "main.css": "/ghibli_films_v2/static/css/main.bcba765f.css",
     "main.js": "/ghibli_films_v2/static/js/main.abaefa8b.js",
     "static/js/787.a315c288.chunk.js": "/ghibli_films_v2/static/js/787.a315c288.chunk.js",
     "static/media/TotoroLogo.svg": "/ghibli_films_v2/static/media/TotoroLogo.cd99fa6f7284f5e9d28429e5bd90cf0b.svg",
     "index.html": "/ghibli_films_v2/index.html",
-    "main.06f10fc5.css.map": "/ghibli_films_v2/static/css/main.06f10fc5.css.map",
+    "main.bcba765f.css.map": "/ghibli_films_v2/static/css/main.bcba765f.css.map",
     "main.abaefa8b.js.map": "/ghibli_films_v2/static/js/main.abaefa8b.js.map",
     "787.a315c288.chunk.js.map": "/ghibli_films_v2/static/js/787.a315c288.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06f10fc5.css",
+    "static/css/main.bcba765f.css",
     "static/js/main.abaefa8b.js"
   ]
 }

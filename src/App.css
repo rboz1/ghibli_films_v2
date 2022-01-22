@@ -10,12 +10,14 @@
   -ms-grid-row: 1;
   -ms-grid-column: 1;
   grid-area: navi;
+  font-family: 'Josefin Slab', serif;
 }
 
 .App main {
   -ms-grid-row: 2;
   -ms-grid-column: 1;
   grid-area: films;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 @media only screen and (min-width: 1000px) {

@@ -8,9 +8,12 @@
 
     header{
         grid-area: navi;
+        font-family: 'Josefin Slab', serif;
     }
     main{
         grid-area: films;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+
     }
 }
 

@@ -1,9 +1,14 @@
-@import 'colorPalette.scss';
+$card-back: #473535;
+$h1-color: #bc3c37;
+$h2-color: #6b5057;
+$p-color: #efefef;
+$bg-color:#171916;
 
 //Mobile
 body{
     background-color: $bg-color;
     height: 100%;
+    
     main{
         display: flex;
         flex-direction: column;
@@ -44,11 +49,9 @@ body{
                     height: 100%;
                     width: 100%;
                     backface-visibility: hidden;
-
                 }
 
                 .card-front{
-
                     img{
                         width: 400px;
                     }
@@ -61,6 +64,7 @@ body{
                 .card-back{
                     background-color: $card-back;
                     transform: rotateY( 180deg );
+                    
 
                     h1{
                         color:$h1-color;
