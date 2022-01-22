@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://rboz1.github.io/portfolio_site/)
+[![Product Name Screen Shot][product-screenshot]](https://rboz1.github.io/ghibli_films_v2/)
 
 I wanted to spice-up my [first version](https://github.com/rboz1/ghibli_films) of this project by adding poster images for the films and a cool card-flip effect. I decided to use axios instead of the fetch API, mostly because of the automatic JSON data transform. I also got to dig into promises a bit and learned about ``` promise.all``` - which was very convenient when I needed to call an API with multiple image urls.
 
