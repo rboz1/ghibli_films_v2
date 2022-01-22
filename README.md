@@ -65,7 +65,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot][product-screenshot]](https://rboz1.github.io/portfolio_site/)
 
 I wanted to spice-up my [first version](https://github.com/rboz1/ghibli_films) of this project by adding poster images for the films and a cool card-flip effect. I decided to use axios instead of the fetch API, mostly because of the automatic JSON data transform. I also got to dig into promises a bit and learned about ``` promise.all``` - which was very convenient when I needed to call an API with multiple image urls.
 
@@ -147,8 +147,6 @@ Project Link: [https://rboz1.github.io/ghibli_films_v2/](https://rboz1.github.io
 
 <!-- ACKNOWLEDGMENTS -->
 ## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [Studio Ghibli API](https://ghibliapi.herokuapp.com/)
 * [The Movie DB API](https://www.themoviedb.org/documentation/api?language=en-US)
